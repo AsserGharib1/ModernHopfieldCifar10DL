@@ -1,7 +1,9 @@
-torch>=2.0
-torchvision
-kagglehub
-scikit-learn
-numpy
-matplotlib
-pillow
+# Version ranges match the APIs used in this project (developed 2025-2026).
+# Lower bounds are required, upper caps guard against breaking major releases.
+torch>=2.2,<3
+torchvision>=0.17,<1
+kagglehub>=0.2
+scikit-learn>=1.3,<2
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+pillow>=10
